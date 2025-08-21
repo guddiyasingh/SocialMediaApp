@@ -1,0 +1,4 @@
+POST /auth/register { email, password, name }
+POST /auth/login { email, password }
+POST /auth/refresh (uses refresh cookie, returns new access)
+POST /auth/logout (clears refresh cookie)
