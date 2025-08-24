@@ -1,0 +1,5 @@
+POST /posts             (auth) body: { text }
+GET  /posts/feed        (auth) returns your posts + followed users' posts (paginated)
+POST /users/:id/follow  (auth)
+POST /users/:id/unfollow (auth)
+GET  /me                (auth) profile
